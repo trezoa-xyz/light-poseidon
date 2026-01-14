@@ -641,7 +641,7 @@ fn test_circom_1_to_12_inputs() {
 /// Checks whether creating a hasher for more than 12 inputs results in an
 /// error.
 #[test]
-fn test_circom_solana_t_gt_12_fails() {
+fn test_circom_trezoa_t_gt_12_fails() {
     use light_poseidon::PoseidonError;
 
     let mut inputs = Vec::new();
